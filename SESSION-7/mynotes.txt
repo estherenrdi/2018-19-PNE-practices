@@ -1,0 +1,54 @@
+here i will take my notes
+client-server model
+client : c (start the communication and send a message) (and the server is having a request, it make a response)
+server : s
+The typical model we are going to use is the one in which the computer holds the server and the client. It can be very confusing but it works
+client and server are communicated by internet
+there are many computers connecting each other but they are divided in groups ( networks)
+if we want to send a message from one computer to the server and to know who is who we have the IP address which refers to the interfere it is connected to.
+one computer can have one, two,... IPs
+IP is not like DNA is an address that can be change dipending where you connect
+
+
+-------------------------------------------------------------------------------------
+
+My mobile phone IP address is : 10.3.52.158
+this computer IP : 212.128.253.76
+Teacher's IP 212.128.253.64
+
+---------------------------------------------------------------------------------------
+
+The ping command is mandatory in the internet
+# ping time for 8.8.8.8:
+ time=3.59 ms
+# ping time for my computer (212.128.253.76):
+
+ time=0.036 ms
+
+# ping time for my partner (212.128.253.75):
+ time=0.472 ms
+
+# ping time for my mobile phone:
+ time=132 ms
+
+
+------------------------------------------------------------------------------------------
+
+
+universal resource location : URL
+A way to identify IP address for humans
+For example, we can ping www.google.com and know its IP
+
+PING www.google.com (216.58.211.228) 56(84) bytes of data.
+64 bytes from mad01s24-in-f4.1e100.net (216.58.211.228): icmp_seq=1 ttl=55 time=3.47 ms
+
+Or our university:
+64 bytes from www.urjc.es (212.128.240.50): icmp_seq=3 ttl=253 time=2.04 ms
+
+------------------------------------------------------------------------------------------
+in the same server can be many applications, how we chose it?
+we have another number that is called: PORT
+The standar port for servers is 80
+ And for example the port 8080 is an app
+ sin puerto no hay magic
+THIS IS A TEXT EXAMPLE AND MIRIAM IS IN TINDER THIS IS A TEXT EXAMPLE AND MIRIAM IS IN TINDER 
