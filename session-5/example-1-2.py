@@ -1,8 +1,3 @@
-def count_letter(sequence, lett):
-    count_let = sequence.count(lett)
-    return count_let
-
-
 from Bases import count_bases
 
 def percentage(seq):

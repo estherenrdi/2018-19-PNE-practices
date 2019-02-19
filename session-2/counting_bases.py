@@ -1,4 +1,5 @@
-user = str(input("Please introduce the sequence : "))
+
+user = str(input("Please introduce the sequence : ").upper())
 
 print(len(user))
 
@@ -9,7 +10,7 @@ count_G = 0
 valid_letters = ['A', 'T', 'C', 'G']
 for letter in user:
     if letter not in valid_letters:
-        print('Error.')
+        letter = letter.replace(letter, '')
     elif letter == 'A':
         count_A += 1
     elif letter == 'T':
@@ -19,8 +20,8 @@ for letter in user:
     elif letter == 'G':
         count_G += 1
 
-print(count_A)
-print(count_T)
-print(count_C)
-print(count_G)
+print('A: ', count_A)
+print('T: ', count_T)
+print('C: ', count_C)
+print('G: ', count_G)
 
